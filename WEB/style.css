@@ -19,13 +19,14 @@ html, body{
 	text-align: center;
     box-sizing: border-box; /*para que no sea mas grande que la pantalla*/
     transition: all .7s linear;
+    position: -webkit-sticky;
+	position: sticky;
  
 
 }
 #titulo{
 	display: none;
-	transition: all .7s linear;
-
+	
 }
 
 .toldo_img{
