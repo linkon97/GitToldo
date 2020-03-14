@@ -1,0 +1,69 @@
+html, body{
+	margin: 0;
+	height: 100%
+
+}
+.header_bar{
+	height: 83%;
+	width: 100%;
+  	background-color: white;
+  	font-family: 'Playfair Display', serif;
+  	font-size: 50px;
+  	vertical-align: middle;
+  	position: relative;
+  	padding-top: 1%;
+ 	position: -webkit-sticky;
+ 	position: sticky;
+ 	overflow: hidden; /*hacerlo responsive por ahora guay*/
+ 	text-overflow: clip;
+	text-align: center;
+    box-sizing: border-box; /*para que no sea mas grande que la pantalla*/
+    transition: all .7s linear;
+ 
+
+}
+#titulo{
+	display: none;
+	transition: all .7s linear;
+
+}
+
+.toldo_img{
+	max-width: 60%;
+	max-height: 60%;
+	/*vertical-align: middle;*/
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
+	-webkit-animation:spin 16s linear infinite;
+    -moz-animation:spin 16s linear infinite;
+    animation:spin 16s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+#manifesto{
+	display: none;
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+	padding-left:20%;
+	padding-right: 20%;
+	padding-top: 1%;
+	text-align: center;
+	text-align: justify;
+	transition: all .5s linear;
+
+}
+.menu_lines{
+	max-width: 3%;
+	max-height: 3%;
+	padding-top: 2%;
+	position: fixed;
+	left: 2%;
+	vertical-align: middle;
+	top: 1%;
+
+
+}
