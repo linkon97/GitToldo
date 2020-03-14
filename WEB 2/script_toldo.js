@@ -1,7 +1,6 @@
 
  
 function showDiv() {  
-
   if (manifesto.style.display === "block") { 
     manifesto.style.display = "none";
     var x = document.getElementsByClassName("header_bar");
@@ -14,6 +13,10 @@ function showDiv() {
   	titulo.style.display="block";
 
   }
+
+}
+function showMenu(){
+  
 }
 
 

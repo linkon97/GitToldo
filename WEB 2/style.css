@@ -6,27 +6,22 @@ html, body{
 .header_bar{
 	height: 83%;
 	width: 100%;
-  	background-color: white;
+
   	font-family: 'Playfair Display', serif;
   	font-size: 50px;
   	vertical-align: middle;
   	position: relative;
   	padding-top: 1%;
- 	position: -webkit-sticky;
- 	position: sticky;
  	overflow: hidden; /*hacerlo responsive por ahora guay*/
  	text-overflow: clip;
 	text-align: center;
     box-sizing: border-box; /*para que no sea mas grande que la pantalla*/
     transition: all .7s linear;
-    position: -webkit-sticky;
-	position: sticky;
- 
-
 }
 #titulo{
+
+
 	display: none;
-	
 }
 
 .toldo_img{
@@ -58,6 +53,8 @@ html, body{
 
 }
 .menu_lines{
+	position: -webkit-sticky;
+	position: sticky;
 	max-width: 3%;
 	max-height: 3%;
 	padding-top: 2%;
@@ -65,6 +62,20 @@ html, body{
 	left: 2%;
 	vertical-align: middle;
 	top: 1%;
-
-
 }
+
+.menu_div{
+	display: none;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+}
+
+
+
+
+
+
+
+
