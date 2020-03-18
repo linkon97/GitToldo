@@ -9,6 +9,7 @@ function showDiv() {
    var check =0;
   } else {
     manifesto.style.display = "block";
+
     var x = document.getElementsByClassName("header_bar");
   	x[0].style.height= "29%";
   	titulo.style.display="block";
@@ -21,8 +22,15 @@ function showMenu(){
     var y = document.getElementsByClassName("menu_div");
     if (y[0].style.display==="block") {
       y[0].style.display="none";
+
+      document.body.style.overflow="visible";
     }else {
       y[0].style.display="block";
+      document.body.style.overflow="hidden";
+
+        }
     }
-    
-    }
+
+function blockScroll(){
+ document.body.style.overflow="hidden";
+} //no se usa

@@ -5,6 +5,7 @@
 		TOLDO
 	</title>
 	<meta charset="UTF-8">
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script type="text/javascript" src="script_toldo.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
@@ -12,13 +13,17 @@
 
 </head>
 <body>
-	<div class="menu_div" id="slider_menu"> </div>
+<!--	<button onclick="blockScroll()"> debug</button> -->
+	<div class="menu_div" id="slider_menu">
+</div>
+	</div>
 
 	<div class="header_bar" >
 
-		<div ><img class="menu_lines" src="images/menu.png" onclick="showMenu()"></div>
+		<div ><img class="menu_lines" src="images/menu.png" onclick="showMenu()" ></div> 
 
 	<div id ="titulo">TOLDO</div>
+
 
 			<img  class="toldo_img" src="images/circle.png"  onclick="showDiv()" />
 	</div>
@@ -30,6 +35,18 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam enim ante, malesuad
 Sed scelerisque metus nec felis consectetur, vitae fringilla metus auctor. In commodo consectetur metus vitae mattis. Aenean faucibus erat quis diam ultrices posuere. Duis vulputate sem in semper congue. Nullam eleifend felis nec iaculis feugiat. Quisque aliquet, metus sit amet tincidunt dictum, lacus massa laoreet orci, eget efficitur lectus lorem non diam. Nunc cursus elit eu arcu faucibus mattis. Etiam sit amet velit vitae nisl aliquet sollicitudin. Sed congue tincidunt sem sed ultricies. Pellentesque porttitor ullamcorper venenatis. Nam hendrerit eros id ante vestibulum, sed malesuada felis malesuada. Nunc euismod, turpis quis sagittis placerat, ipsum diam porttitor nisl, sed vulputate est felis id lorem. Curabitur rhoncus rutrum magna vitae rhoncus.
 
 Nulla consequat, tellus id laoreet elementum, justo massa tincidunt lectus, id auctor ex quam ut nisl. Praesent eget faucibus mi. Integer dapibus tempus urna vel sagittis. Curabitur condimentum, elit aliquam elementum feugiat, arcu ipsum hendrerit mauris, et lobortis mi dolor nec odio. Sed vestibulum volutpat velit, sagittis malesuada augue dictum id. Nulla quis justo diam. Sed in tortor erat. Sed pellentesque sapien et tristique consectetur. Duis dignissim et justo sit amet sodales. Integer aliquam nunc accumsan varius viverra. Sed eu ligula et diam facilisis laoreet. Donec blandit dui porttitor fermentum convallis.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam enim ante, malesuada in rutrum nec, vehicula at elit. Vivamus sit amet arcu libero. Curabitur accumsan nibh tellus, id aliquet felis commodo hendrerit. Phasellus bibendum lectus magna, sit amet volutpat felis commodo id. Duis turpis augue, ultricies ut ultrices in, mollis ut ligula. Vivamus pellentesque facilisis diam, ut venenatis est. Phasellus a pretium felis. Nullam commodo, nisl at sagittis aliquam, magna ipsum condimentum diam, nec dapibus neque nisi nec nisi. Morbi congue orci a rutrum sagittis. Vivamus vehicula sem sit amet sapien rhoncus, a pulvinar quam blandit. Morbi magna velit, dapibus ullamcorper mauris vitae, elementum pulvinar neque. Praesent sed dapibus magna. Fusce fermentum consectetur lorem et dapibus.
+
+Sed scelerisque metus nec felis consectetur, vitae fringilla metus auctor. In commodo consectetur metus vitae mattis. Aenean faucibus erat quis diam ultrices posuere. Duis vulputate sem in semper congue. Nullam eleifend felis nec iaculis feugiat. Quisque aliquet, metus sit amet tincidunt dictum, lacus massa laoreet orci, eget efficitur lectus lorem non diam. Nunc cursus elit eu arcu faucibus mattis. Etiam sit amet velit vitae nisl aliquet sollicitudin. Sed congue tincidunt sem sed ultricies. Pellentesque porttitor ullamcorper venenatis. Nam hendrerit eros id ante vestibulum, sed malesuada felis malesuada. Nunc euismod, turpis quis sagittis placerat, ipsum diam porttitor nisl, sed vulputate est felis id lorem. Curabitur rhoncus rutrum magna vitae rhoncus.
+
+Nulla consequat, tellus id laoreet elementum, justo massa tincidunt lectus, id auctor ex quam ut nisl. Praesent eget faucibus mi. Integer dapibus tempus urna vel sagittis. Curabitur condimentum, elit aliquam elementum feugiat, arcu ipsum hendrerit mauris, et lobortis mi dolor nec odio. Sed vestibulum volutpat velit, sagittis malesuada augue dictum id. Nulla quis justo diam. Sed in tortor erat. Sed pellentesque sapien et tristique consectetur. Duis dignissim et justo sit amet sodales. Integer aliquam nunc accumsan varius viverra. Sed eu ligula et diam facilisis laoreet. Donec blandit dui porttitor fermentum convallis.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam enim ante, malesuada in rutrum nec, vehicula at elit. Vivamus sit amet arcu libero. Curabitur accumsan nibh tellus, id aliquet felis commodo hendrerit. Phasellus bibendum lectus magna, sit amet volutpat felis commodo id. Duis turpis augue, ultricies ut ultrices in, mollis ut ligula. Vivamus pellentesque facilisis diam, ut venenatis est. Phasellus a pretium felis. Nullam commodo, nisl at sagittis aliquam, magna ipsum condimentum diam, nec dapibus neque nisi nec nisi. Morbi congue orci a rutrum sagittis. Vivamus vehicula sem sit amet sapien rhoncus, a pulvinar quam blandit. Morbi magna velit, dapibus ullamcorper mauris vitae, elementum pulvinar neque. Praesent sed dapibus magna. Fusce fermentum consectetur lorem et dapibus.
+
+Sed scelerisque metus nec felis consectetur, vitae fringilla metus auctor. In commodo consectetur metus vitae mattis. Aenean faucibus erat quis diam ultrices posuere. Duis vulputate sem in semper congue. Nullam eleifend felis nec iaculis feugiat. Quisque aliquet, metus sit amet tincidunt dictum, lacus massa laoreet orci, eget efficitur lectus lorem non diam. Nunc cursus elit eu arcu faucibus mattis. Etiam sit amet velit vitae nisl aliquet sollicitudin. Sed congue tincidunt sem sed ultricies. Pellentesque porttitor ullamcorper venenatis. Nam hendrerit eros id ante vestibulum, sed malesuada felis malesuada. Nunc euismod, turpis quis sagittis placerat, ipsum diam porttitor nisl, sed vulputate est felis id lorem. Curabitur rhoncus rutrum magna vitae rhoncus.
+
+Nulla consequat, tellus id laoreet elementum, justo massa tincidunt lectus, id auctor ex quam ut nisl. Praesent eget faucibus mi. Integer dapibus tempus urna vel sagittis. Curabitur condimentum, elit aliquam elementum feugiat, arcu ipsum hendrerit mauris, et lobortis mi dolor nec odio. Sed vestibulum volutpat velit, sagittis malesuada augue dictum id. Nulla quis justo diam. Sed in tortor erat. Sed pellentesque sapien et tristique consectetur. Duis dignissim et justo sit amet sodales. Integer aliquam nunc accumsan varius viverra. Sed eu ligula et diam facilisis laoreet. Donec blandit dui porttitor fermentum convallis.
+
 
 
 			</p>

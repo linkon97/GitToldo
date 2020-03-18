@@ -1,0 +1,10 @@
+function showMenu(){
+    var y = document.getElementsByClassName("menu_div");
+    if (y[0].style.display==="block") {
+      y[0].style.display="none";
+      document.body.style.overflow="visible";
+    }else {
+      y[0].style.display="block";
+      document.body.style.overflow="hidden";
+        }
+    }
